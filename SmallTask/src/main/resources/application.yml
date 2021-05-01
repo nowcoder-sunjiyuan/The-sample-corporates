@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+file-setting:
+  root-path: /Users/nowcoder/Downloads/牛一琳/美企/
+  target-path: /Users/nowcoder/Downloads/target/
+  task-classification: /Users/nowcoder/Downloads/target/牛一琳/美企/
+  task-target: /Users/nowcoder/Downloads/test/
+
