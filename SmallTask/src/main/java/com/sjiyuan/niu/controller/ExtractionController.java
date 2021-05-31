@@ -1,17 +1,17 @@
 package com.sjiyuan.niu.controller;
 
 import com.sjiyuan.niu.param.FileSetting;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 import org.apache.commons.io.FileUtils;
-import org.apache.tika.Tika;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;
@@ -146,6 +146,48 @@ public class ExtractionController {
     }
     return true;
   }
+
+
+  /**
+   * 将文献中，.开头前的人名转换为大写
+   * @return
+   */
+  @GetMapping("/name_uppercase")
+  public boolean nameUppercase(){
+    String fileName = "/Users/nowcoder/Downloads/牛一琳/test.txt";
+    //String fileName = "/Users/nowcoder/Downloads/牛一琳/5.31-参考文献 2.docx";
+    File file = new File(fileName);
+    try {
+      String s = FileUtils.readFileToString(file, Charset.defaultCharset());
+      String[] lines = s.split("\n");
+
+      List<String> result = new ArrayList<>();
+      /**
+       * 先把"."前面的字母转换成大写
+       */
+      for(String line : lines){
+        char[] lineChars = line.toCharArray();
+        for(int i = 0; i < lineChars.length; i++){
+          if(lineChars[i] == '.') {
+            break;
+          }else{
+            lineChars[i] = Character.toUpperCase(lineChars[i]);
+          }
+        }
+        result.add(String.valueOf(lineChars));
+      }
+
+      Collections.sort(result);
+      /**
+       * 将数组写入到txt中
+       */
+      FileUtils.writeLines(new File("/Users/nowcoder/Downloads/牛一琳/output.txt"), result);
+    } catch (IOException e) {
+      return false;
+    }
+    return true;
+  }
+
 
   /**
    * 将多个txt合并(年份)
