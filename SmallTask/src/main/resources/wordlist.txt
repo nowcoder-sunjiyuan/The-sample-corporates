@@ -1,0 +1,863 @@
+Code Glosses:
+as a matter of fact
+be referred to as
+called
+defined as
+e.g.
+for example
+for instance
+i.e.
+in fact
+in other words
+in short
+indeed
+it means
+known as
+like[\s]
+meaning
+namely
+or [\S]
+put another way
+put differently
+say
+simply put
+specifically
+stated  differently
+such as
+take [\s\S] as an example
+that is
+that is to say
+that means
+this means
+to make it concrete
+to put it simple
+to simplify
+viz
+which means
+
+Endophoric Markers:
+in Chapter [0-9]+
+Chapter [0-9]+
+in Part [0-9]+
+Part [0-9]+
+in Section [0-9]+
+Section [0-9]+
+in the [0-9]+ chapter
+the [0-9]+ chapter
+in the [0-9]+ part
+the [0-9]+ part
+in the [0-9]+ section
+the [0-9]+ section
+in this chapter
+this chapter
+in this part
+this part
+in this section
+this section
+aforementioned
+aforesaid
+as follows
+as mentioned
+example [0-9]+
+Fig. [0-9]+
+Figure [0-9]+
+following
+foregoing
+next
+P. [0-9]+
+Page [0-9]+
+previewing
+previous
+previously
+refer to
+see chapter
+see figure
+see Table
+see[\s\S]at/on
+see[\s\S]section on page
+Table [0-9]+
+[0-9]+ above
+[0-9]+ before
+[0-9]+ below
+[0-9]+ earlier
+[0-9]+ later
+
+Evidentials:
+to cite
+cite
+to quote
+quote
+according to
+as[\s\S]mentioned
+as[\s\S]once argued
+cited
+it has been said that
+quoted
+
+Frame Markers:
+in chapter [0-9]+
+chapter [0-9]+
+in part [0-9]+
+part [0-9]+
+in section [0-9]+
+section [0-9]+
+in the [0-9]+ chapter
+the [0-9]+ chapter
+in the [0-9]+ part
+the [0-9]+ part
+in the [0-9]+ section
+the [0-9]+ section
+in this chapter
+this chapter
+in this part
+this part
+in this section
+this section
+a further point
+another point
+another reason
+finally
+first
+first of all
+firstly
+for one thing
+fourth
+fourthly
+in the first place
+last
+lastly
+next
+on the one hand
+on the other hand
+second
+secondly
+subsequently
+then
+third
+thirdly
+to begin
+to commence with
+to start with
+
+all in all
+at this point
+at this stage
+by far
+for the moment
+in a word
+in brief
+in conclusion
+in short
+in sum
+in summary
+now
+on the whole
+overall
+so far
+taking everything into account
+thus far
+to conclude
+to repeat
+to sum up
+to summarize
+
+aim
+desire to
+focus
+goal
+intend to
+intention
+objective
+purpose
+seek to
+want to
+wish to
+would like to
+
+back to digress
+in regard to
+in respect of
+in terms of
+in view of
+move on
+now
+resume
+return to
+revisit
+shift to
+so[\s]
+to look more closely
+turn to
+well
+when it comes to
+with regard to
+
+Transition Markers:
+accordingly
+additionally
+after all
+again
+albeit
+also
+alternatively
+although
+and
+apart from
+as a consequence
+as a result
+as of
+as such
+at the same time
+because
+besides
+but
+by contrast
+by the same token
+consequently
+conversely
+despite of
+due to
+equally
+even if
+even though
+for[\s\S]reason
+further
+furthermore
+hence
+however
+in addition
+in contrast
+in reverse
+in the meantime
+in the same way
+in this case
+instead
+inversely
+leads to
+likewise
+moreover
+needless to say
+nevertheless
+nonetheless
+notwithstanding
+on the contrary
+on the contrast
+on the other hand
+otherwise
+owing to
+rather
+rather than
+result in
+similarly
+since
+so[\s]
+so as to
+still
+the result is
+then
+thereby
+therefore
+though
+thus
+to the contrary
+what[\s\S]more
+whereas
+while
+whilst
+yet
+
+Attitude Markers:
+acceptable
+accessible
+actively
+admittedly
+advanced
+affordable
+aggressive
+agree
+already
+always
+amaz[a-zA-Z]*
+applicable
+appreciate
+appropriate[a-zA-Z]*
+astonish[a-zA-Z]*
+beautiful
+believe
+best
+better
+care[a-zA-Z]*
+challenge
+charitable
+clearly
+closely
+collaboratively
+commit
+complex
+comprehensive[a-zA-Z]*
+confident
+consecutive
+consistent
+consistently
+constantly
+continu[a-zA-Z]*
+cooperative
+correctly
+crazy
+creative
+critical
+curious[a-zA-Z]*
+deeply
+desirabl[a-zA-Z]*
+difficult
+disagree[a-zA-Z]*
+disappoint[a-zA-Z]*
+diverse
+dramatic[a-zA-Z]*
+easily
+efficient[a-zA-Z]*
+eligible
+embarrassing
+enjoyable
+enthusiastic
+equal
+essential[a-zA-Z]*
+ethical
+even
+excellent
+expected[a-zA-Z]*
+expertise
+extensive
+extremely
+fair
+firmly
+first-class
+flexible
+fortunate[a-zA-Z]*
+forward
+free
+fresh
+friendly
+fully
+fundamental
+globally
+good
+great[a-zA-Z]*
+green
+happy
+harmful
+harmonious
+hazardous
+healthy
+help
+high-end
+highest
+high-level
+highlight
+highly
+high-quality
+high-risk
+honest
+hope
+hopeful[a-zA-Z]*
+important[a-zA-Z]*
+impressive
+improve[a-zA-Z]*
+inappropriate[a-zA-Z]*
+inclusive
+increasingly
+incredibl[a-zA-Z]*
+in-depth
+innovative
+interactive
+interesting[a-zA-Z]*
+international
+jointly
+joy
+largest
+leading
+long
+long-term
+low-carbon
+lucky
+major
+meaningful
+mostly
+mutual
+nationally
+necessary
+negatively
+new
+nonprofit
+numerous
+official
+optimistic
+original
+outstanding
+poor
+positively
+powerful
+practical
+prefer[a-zA-Z]*
+proactively
+professional
+progress
+promote
+protect
+qualified
+quick
+rapidly
+reasonable
+recycled
+regardless
+regret
+regularly
+reliable
+remarkabl[a-zA-Z]*
+renewable
+responsible
+robust
+safe[a-zA-Z]*
+seriously
+serve
+share
+shock[a-zA-Z]*
+significant
+simple
+skilled
+smooth[a-zA-Z]*
+solid
+special
+stable
+steadily
+strictly
+striking[a-zA-Z]*
+strive
+strong[a-zA-Z]*
+successful
+successively
+support
+surpris[a-zA-Z]*
+sustainabl[a-zA-Z]*
+systematic
+thoughtful
+thrilling
+timely
+totally
+transparent
+truly
+trustworthy
+unbelievabl[a-zA-Z]*
+unconventional
+understandabl[a-zA-Z]*
+unexpected[a-zA-Z]*
+unfortunate[a-zA-Z]*
+unimaginable
+unique
+unsurpring[a-zA-Z]*
+unusual[a-zA-Z]*
+usual
+valuable
+various
+vigorously
+voluntarily
+vulnerable
+win-win
+world-class
+worldwide
+effective
+useful
+tremendous
+worthwhile
+acceptable
+noteworthy
+fail
+deserve
+reliably
+beneficial
+crucial
+openly
+honestly
+vital
+
+Boosters:
+absolutely
+actively
+actually
+actually
+aim
+allow
+already
+always
+always
+anytime
+anywhere
+assert
+assertion
+assume
+assure
+believe
+believe[a-zA-Z]*
+best
+beyond
+beyond questions
+biggest
+by no means
+certain[a-zA-Z]*
+clear[a-zA-Z]*
+clearly
+commit
+completely
+conclude
+conclusion
+conclusively
+confirm
+considerable
+consistently
+constantly
+continue
+decidedly
+deem
+deepest
+deeply
+definite[a-zA-Z]*
+demonstrate[a-zA-Z]*
+determine
+doubt
+doubtless
+doubtlessly
+dramatically
+earliest
+easily
+emphasis
+enormously
+ensure
+entirely
+especially
+essentially
+establish[a-zA-Z]*
+estimate
+every one
+everything
+everywhere
+evident[a-zA-Z]*
+exactly
+exclusively
+expect[a-zA-Z]*
+expert
+extensively
+extraordinary
+extremely
+fantastic
+favorite
+find[a-zA-Z]*
+firmly
+fortunate
+found
+found
+fully
+generally
+glad
+good
+grateful
+gratitude
+great
+heavily
+highest
+highlight
+highly
+hold
+impossible
+in fact
+incontestabl[a-zA-Z]*
+incontrovertibl[a-zA-Z]*
+increasingly
+indeed
+indicate
+indisputable
+indisputably
+intend
+know
+known
+largely
+largest
+majority
+mostly
+must
+necessary
+never
+no doubt
+obvious[a-zA-Z]*
+of course
+of course
+only
+particularly
+perfect
+plan
+positively
+proactively
+professionally
+propose
+proud
+prove
+prove[a-zA-Z]*
+rapidly
+realize
+realize[a-zA-Z]*
+really
+regularly
+remarkabl[a-zA-Z]*
+reveal
+seek
+seriously
+shall
+show[a-zA-Z]*
+significant[a-zA-Z]*
+simply
+sincerely
+solely
+steadily
+strictly
+strongly
+substantially
+successively
+sure[a-zA-Z]*
+surprisingly
+thankfully
+think[a-zA-Z]*
+thought
+thoughtful
+timely
+to a large extent
+totally
+true
+truly
+unarguably
+undeniabl[a-zA-Z]*
+under no circumstance
+underscore
+undisputedly
+undoubtedly
+uniquely
+utterly
+vast
+very
+vigorously
+wholly
+widely
+without doubt
+
+Self-mention:
+our
+ourselves
+the company
+the corporate
+the group
+our group
+us[\s]
+we
+
+Engagement Markers:
+add
+allow
+analyze
+apply
+arrange
+as we can see
+assess
+assume
+by the way
+calculate
+can
+choose
+classify
+click
+compare
+connect
+consider
+consult
+contact
+contrast
+define
+demonstrate
+determine
+develop
+do not
+employ
+ensure
+estimate
+evaluate
+find
+follow
+go
+have to
+hope
+imagine
+incidentally
+increase
+input
+insert
+integrate
+join
+key
+let
+let us
+look
+look at
+mark
+measure
+mount
+must
+need to
+note
+notice
+observe
+
+ought
+our
+pay
+picture
+please
+prepare
+recall
+recover refer
+refer to
+regard remember
+remember
+remove
+review
+scan
+see
+see chapter
+see figure
+see Table
+see at|on
+see section on page
+select
+set
+share
+should
+show
+state
+suppose
+take a look
+take as example
+the customers
+the shareholders
+the stakeholders
+the suppliers
+think about
+think of
+turn
+use
+watch video
+you
+your
+
+Hedges:
+about
+almost
+anticipate
+apparent[a-zA-Z]*
+appear[a-zA-Z]*
+approximately
+argue[a-zA-Z]*
+around
+assume[a-zA-Z]*
+attempt
+broadly
+cautiously
+certain
+certain amount
+claim[a-zA-Z]*
+commonly
+consider
+could
+couldn't
+doubt[a-zA-Z]*
+essentially
+estimate[a-zA-Z]*
+extent
+fairly
+feel[a-zA-Z]*
+felt
+frequently
+from our perspective
+from this perspective
+generally
+guess
+hardly
+hope
+hypothesize
+in broad terms
+in general
+in great/large extent
+in most instances
+in most/some cases
+in our opinion
+in our view
+in this view
+in view of
+inclined
+indicate[a-zA-Z]*
+interpret
+just
+largely
+level
+likelihood
+likely
+mainly
+may
+maybe
+merely
+might
+mostly
+nearly
+normally
+not entirely
+often
+on the whole
+ought
+partially
+partly
+perhaps
+plausibl[a-zA-Z]*
+posit
+possibl[a-zA-Z]*
+postulate[a-zA-Z]*
+potentially
+predict[a-zA-Z]*
+presumabl[a-zA-Z]*
+probabl[a-zA-Z]*
+prone to
+propose
+proposed
+quite
+rather [0-9]+
+relatively
+relatively
+roughly
+seems
+slightly
+sometimes
+somewhat
+soon
+suggest[a-zA-Z]*
+suppose[a-zA-Z]*
+suspect[a-zA-Z]*
+temporarily
+tend [\s\S] to
+think
+to certain degree
+to certain extent
+to my knowledge
+to our knowledge
+to some degree
+to some extent
+typical[a-zA-Z]*
+uncertain[a-zA-Z]*
+unclear
+unclear[a-zA-Z]*
+unlikely
+usually
+would
